@@ -1,10 +1,8 @@
 ## Part B – Short Answer
 
 **B1. Explain the difference between props and state in React. When would you use each?**  
-- Props are data passed from parent to child components and are read-only.  
-- State is data managed within a component and can be changed.  
-- Use props to pass data between components.  
-- Use state to manage dynamic data such as user input or UI changes.
+- Props are data passed from parent to child components ,they are read-only (immutable), meaning a child component cannot modify the props it receives , Props help make components reusable.  Use props to Pass data from parent → child
+- State is data managed within a component It is mutable, meaning it can change over time using functions like setState or useState .State is used to handle dynamic data and control what is rendered on the UI.   Use state to manage dynamic data such as user input or UI changes.
 
 ---
 
